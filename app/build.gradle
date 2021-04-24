@@ -43,7 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 //    ARcore
-    implementation 'com.google.ar:core:1.23.0'
+//    implementation 'com.google.ar:core:1.23.0'
 //    ARcore
 
     // Provides ARCore Session and related resources.

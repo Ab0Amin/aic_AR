@@ -1,30 +1,24 @@
-plugins {
-    id 'com.android.application'
-}
+//plugins {id 'com.android.application'}
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "com.example.aic"
         minSdkVersion 24
-        targetSdkVersion 30
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-//                   ARcore
-
-        minSdkVersion 16
-//                   ARcore
 
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
         }
     }
     compileOptions {
@@ -34,6 +28,16 @@ android {
 }
 
 dependencies {
+
+    // Provides ArFragment, and other Sceneform UX resources:
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
+
+    // Use the Sceneform UX Package built from the source files included in the sceneformux folder.
+    //api project(":sceneformux")
+
+    // Alternatively, use ArSceneView without the UX dependency.
+    //implementation "com.google.ar.sceneform:core:1.15.0"
+
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
@@ -47,18 +51,22 @@ dependencies {
 //    ARcore
 
     // Provides ARCore Session and related resources.
-    implementation 'com.google.ar:core:1.15.0'
+//    implementation 'com.google.ar:core:1.15.0'
 
-    // Provides ArFragment, and other UX resources.
-    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
-
-    // Alternatively, use ArSceneView without the UX dependency.
-    implementation 'com.google.ar.sceneform:core:1.15.0'
-
-//    apply plugin: 'com.google.ar.sceneform.plugin'
+//    // Provides ArFragment, and other UX resources.
+//    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
 //
-//    sceneform.asset('sampledata/models/andy.obj', // 'Source Asset Path' specified during import.
-//            'default',                    // 'Material Path' specified during import.
-//            'sampledata/models/andy.sfa', // '.sfa Output Path' specified during import.
-//            'src/main/res/raw/andy')
+//    // Alternatively, use ArSceneView without the UX dependency.
+////    implementation 'com.google.ar.sceneform:core:1.15.0'
+//    //noinspection GradleCompatible
+//    implementation "com.android.support:appcompat-v7:28.0.0"
+
+
 }
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+
+sceneform.asset('sampledata/wolves.obj',
+        'default',
+        'sampledata/wolves.sfa',
+        'src/main/res/raw/wolves')

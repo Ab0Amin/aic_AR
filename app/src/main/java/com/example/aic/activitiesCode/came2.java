@@ -16,9 +16,12 @@ import com.google.ar.core.Anchor;
 import com.google.ar.core.HitResult;
 import com.google.ar.core.Plane;
 import com.google.ar.sceneform.AnchorNode;
+import com.google.ar.sceneform.math.Quaternion;
+import com.google.ar.sceneform.math.Vector3;
 import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformableNode;
+import com.google.ar.sceneform.math.Quaternion;
 
 public class came2 extends AppCompatActivity {
     private static final String TAG = came2.class.getSimpleName();
@@ -26,7 +29,7 @@ public class came2 extends AppCompatActivity {
 
     private ModelRenderable andyRenderable;
     private ArFragment arFragment;
-
+private  byte counter =0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,62 +39,49 @@ public class came2 extends AppCompatActivity {
         setContentView(R.layout.activity_came2);
 
         arFragment=(ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
-//        setUpModel();
-//        setUpPlane();
+        setUpModel();
+        setUpPlane();
 
-        ModelRenderable.builder()
-                .setSource(this, R.raw.wolves)
-                .build()
-                .thenAccept(renderable -> andyRenderable = renderable)
-                .exceptionally(
-                        throwable -> {
-                            Toast toast =
-                                    Toast.makeText(this, "Unable to load andy renderable", Toast.LENGTH_LONG);
-                            toast.setGravity(Gravity.CENTER, 0, 0);
-                            toast.show();
-                            return null;
-                        });
-
-
-        arFragment.setOnTapArPlaneListener((
-                HitResult hitResult,Plane plane,MotionEvent motionEvent) -> {
-
-            if (andyRenderable == null) {
-                return;
-            }
-            Anchor anchor = hitResult.createAnchor();
-            AnchorNode anchorNode = new AnchorNode(anchor);
-            anchorNode.setParent(arFragment.getArSceneView().getScene());
-            TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());
-            node.setParent(anchorNode);
-            node.setRenderable(andyRenderable);
-            node.select();
-
-        });
     }
 
     private void setUpPlane() {
-        arFragment.setOnTapArPlaneListener((
-               HitResult hitResult,Plane plane,MotionEvent motionEvent) -> {
-            if (andyRenderable == null) {
-                return;
-            }
-            Anchor anchor = hitResult.createAnchor();
-            AnchorNode anchorNode = new AnchorNode(anchor);
-            anchorNode.setParent(arFragment.getArSceneView().getScene());
-            TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());
-            node.setParent(anchorNode);
-            node.setRenderable(andyRenderable);
-            node.select();
+        if (counter <1) {
 
-        });
+
+            arFragment.setOnTapArPlaneListener((
+                    HitResult hitResult, Plane plane, MotionEvent motionEvent) -> {
+                if (andyRenderable == null) {
+                    return;
+                }
+
+                Anchor anchor = hitResult.createAnchor();
+                AnchorNode anchorNode = new AnchorNode(anchor);
+                anchorNode.setParent(arFragment.getArSceneView().getScene());
+                TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());
+                node.setParent(anchorNode);
+                node.setRenderable(andyRenderable);
+
+                Vector3 direction = new Vector3(0, -1, 0);
+                Quaternion lookRotation = Quaternion.lookRotation(direction, Vector3.down());
+
+                node.setWorldRotation(lookRotation);
+                node.getScaleController().setEnabled(true);
+                node.getRotationController().setEnabled(true);
+                node.select();
+                counter++;
+
+            });
+        }
     }
 
 
 
     private void setUpModel() {
-        ModelRenderable.builder()
-                .setSource(this, R.raw.wolves)
+        if (counter >=1) {
+return;
+        }
+            ModelRenderable.builder()
+                .setSource(this, R.raw.b2)
                 .build()
                 .thenAccept(renderable -> andyRenderable = renderable)
                 .exceptionally(

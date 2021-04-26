@@ -70,3 +70,15 @@ sceneform.asset('sampledata/wolves.obj',
         'default',
         'sampledata/wolves.sfa',
         'src/main/res/raw/wolves')
+
+
+
+sceneform.asset('sampledata/building.obj',
+        'default',
+        'sampledata/building.sfa',
+        'src/main/res/raw/building')
+
+sceneform.asset('sampledata/b2.obj',
+        'default',
+        'sampledata/b2.sfa',
+        'src/main/res/raw/b2')

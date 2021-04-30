@@ -29,14 +29,7 @@ android {
 
 dependencies {
 
-    // Provides ArFragment, and other Sceneform UX resources:
-    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
-
-    // Use the Sceneform UX Package built from the source files included in the sceneformux folder.
-    //api project(":sceneformux")
-
-    // Alternatively, use ArSceneView without the UX dependency.
-    //implementation "com.google.ar.sceneform:core:1.15.0"
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.6.0"
 
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -45,40 +38,12 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.ar.sceneform:assets:1.6.0'
 
-//    ARcore
-//    implementation 'com.google.ar:core:1.23.0'
-//    ARcore
-
-    // Provides ARCore Session and related resources.
-//    implementation 'com.google.ar:core:1.15.0'
-
-//    // Provides ArFragment, and other UX resources.
-//    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
-//
-//    // Alternatively, use ArSceneView without the UX dependency.
-////    implementation 'com.google.ar.sceneform:core:1.15.0'
-//    //noinspection GradleCompatible
-//    implementation "com.android.support:appcompat-v7:28.0.0"
 
 
 }
 apply plugin: 'com.google.ar.sceneform.plugin'
 
 
-sceneform.asset('sampledata/wolves.obj',
-        'default',
-        'sampledata/wolves.sfa',
-        'src/main/res/raw/wolves')
 
-
-
-sceneform.asset('sampledata/building.obj',
-        'default',
-        'sampledata/building.sfa',
-        'src/main/res/raw/building')
-
-sceneform.asset('sampledata/b2.obj',
-        'default',
-        'sampledata/b2.sfa',
-        'src/main/res/raw/b2')

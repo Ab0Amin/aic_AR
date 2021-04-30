@@ -16,14 +16,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.example.aic.R;
-import com.example.aic.helper.CameraPermissionHelper;
-import com.example.aic.helper.SnackbarHelper;
 import com.google.ar.core.ArCoreApk;
-import com.google.ar.core.CameraConfig;
-import com.google.ar.core.CameraConfigFilter;
-import com.google.ar.core.Config;
 import com.google.ar.core.Session;
-import com.google.ar.core.SharedCamera;
 import com.google.ar.core.exceptions.UnavailableApkTooOldException;
 import com.google.ar.core.exceptions.UnavailableArcoreNotInstalledException;
 import com.google.ar.core.exceptions.UnavailableDeviceNotCompatibleException;
@@ -31,20 +25,12 @@ import com.google.ar.core.exceptions.UnavailableException;
 import com.google.ar.core.exceptions.UnavailableSdkTooOldException;
 import com.google.ar.core.exceptions.UnavailableUserDeclinedInstallationException;
 
-import java.lang.reflect.Array;
-import java.util.EnumSet;
-import java.util.List;
-import java.util.Set;
-import java.util.logging.Handler;
-
 public class MycamActivity extends AppCompatActivity {
 
     private Session session;
     private boolean installRequested;
-    private final SnackbarHelper messageSnackbarHelper = new SnackbarHelper();
     private static final String TAG = MycamActivity.class.getSimpleName();
     private CameraManager cameraManager;
-    private SharedCamera sharedCamera;
     private android.os.Handler backgroundHandler=new android.os.Handler();
     private CameraDevice.StateCallback cameraDeviceCallback;
     private String CameraID ;
@@ -70,42 +56,6 @@ public class MycamActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-// Create a camera config filter for the session.
-        CameraConfigFilter filter = new CameraConfigFilter(session);
-
-// Return only camera configs that target 30 fps camera capture frame rate.
-        filter.setTargetFps(EnumSet.of(CameraConfig.TargetFps.TARGET_FPS_30));
-
-// Return only camera configs that will not use the depth sensor.
-        filter.setDepthSensorUsage(EnumSet.of(CameraConfig.DepthSensorUsage.DO_NOT_USE));
-
-// Get list of configs that match filter settings.
-// In this case, this list is guaranteed to contain at least one element,
-// because both TargetFps.TARGET_FPS_30 and DepthSensorUsage.DO_NOT_USE
-// are supported on all ARCore supported devices.
-        List<CameraConfig> cameraConfigList = session.getSupportedCameraConfigs(filter);
-
-// Use element 0 from the list of returned camera configs. This is because
-// it contains the camera config that best matches the specified filter
-// settings.
-        session.setCameraConfig(cameraConfigList.get(0));
-        try {
-            session = new Session(MycamActivity.this, EnumSet.of(Session.Feature.SHARED_CAMERA));
-        } catch (UnavailableArcoreNotInstalledException e) {
-            e.printStackTrace();
-        } catch (UnavailableApkTooOldException e) {
-            e.printStackTrace();
-        } catch (UnavailableSdkTooOldException e) {
-            e.printStackTrace();
-        } catch (UnavailableDeviceNotCompatibleException e) {
-            e.printStackTrace();
-        }
-        sharedCamera = session.getSharedCamera();
-        // Wrap the callback in a shared camera callback.
-        CameraDevice.StateCallback wrappedCallback =
-
-                sharedCamera.createARDeviceStateCallback(cameraDeviceCallback, backgroundHandler);
-
 // Store a reference to the camera system service.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             cameraManager = (CameraManager) this.getSystemService(Context.CAMERA_SERVICE);
@@ -129,7 +79,6 @@ public class MycamActivity extends AppCompatActivity {
 //                      Object[] sets  = ids.toArray();
 //                Object[] set = (Object[]) sets[0];
 //                CameraID= (String) set[0];
-                cameraManager.openCamera(set[0], wrappedCallback, backgroundHandler);
             } catch (@SuppressLint("NewApi") CameraAccessException e) {
                 e.printStackTrace();
             }
@@ -153,73 +102,6 @@ public class MycamActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        if (session == null) {
-            Exception exception = null;
-            String message = null;
-            try {
-                switch (ArCoreApk.getInstance().requestInstall(this, !installRequested)) {
-                    case INSTALL_REQUESTED:
-                        installRequested = true;
-                        return;
-                    case INSTALLED:
-                        break;
-                }
-
-                // ARCore requires camera permissions to operate. If we did not yet obtain runtime
-                // permission on Android M and above, now is a good time to ask the user for it.
-                if (!CameraPermissionHelper.hasCameraPermission(this)) {
-                    CameraPermissionHelper.requestCameraPermission(this);
-                    return;
-                }
-
-                // Create the session.
-                session = new Session(/* context= */ this);
-            } catch (UnavailableArcoreNotInstalledException
-                    | UnavailableUserDeclinedInstallationException e) {
-                message = "Please install ARCore";
-                exception = e;
-            } catch (UnavailableApkTooOldException e) {
-                message = "Please update ARCore";
-                exception = e;
-            } catch (UnavailableSdkTooOldException e) {
-                message = "Please update this app";
-                exception = e;
-            } catch (UnavailableDeviceNotCompatibleException e) {
-                message = "This device does not support AR";
-                exception = e;
-            } catch (Exception e) {
-                message = "Failed to create AR session";
-                exception = e;
-            }
-
-            if (message != null) {
-                messageSnackbarHelper.showError(this, message);
-                Log.e(TAG, "Exception creating session", exception);
-                return;
-            }
-        }
-
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] results) {
-        super.onRequestPermissionsResult(requestCode, permissions, results);
-        if (!CameraPermissionHelper.hasCameraPermission(this)) {
-            // Use toast instead of snackbar here since the activity will exit.
-            Toast.makeText(this, "Camera permission is needed to run this application", Toast.LENGTH_LONG)
-                    .show();
-            if (!CameraPermissionHelper.shouldShowRequestPermissionRationale(this)) {
-                // Permission denied with checking "Do not ask again".
-                CameraPermissionHelper.launchPermissionSettings(this);
-            }
-            finish();
-        }
-    }
 
     // Verify that ARCore is installed and using the current version.
     private boolean isARCoreSupportedAndUpToDate() {

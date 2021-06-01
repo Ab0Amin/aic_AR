@@ -23,7 +23,6 @@
             android:usesCleartextTraffic="true"
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".activitiesCode.projects">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

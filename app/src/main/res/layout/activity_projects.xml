@@ -8,14 +8,15 @@
         tools:context=".activitiesCode.projects">
 
     <ImageView
-            android:layout_width="425dp"
-            android:layout_height="178dp" tools:srcCompat="@drawable/buliding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" tools:srcCompat="@drawable/buliding"
             android:id="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp" android:layout_marginStart="16dp" android:layout_marginTop="50dp"
-            app:srcCompat="@drawable/buliding" android:scaleType="centerInside"/>
+            app:srcCompat="@drawable/buliding" android:scaleType="fitStart"
+            android:onClick="_3d"/>
     <Button
             android:text="3D"
             android:layout_width="68dp"
@@ -23,7 +24,7 @@
             android:id="@+id/button2" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp"
             android:backgroundTint="#D81616" android:onClick="_3d"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+            app:layout_constraintTop_toBottomOf="@+id/imageView" android:visibility="invisible"/>
     <Button
             android:text="AR"
             android:layout_width="70dp"
@@ -32,5 +33,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp"
             android:backgroundTint="#D81616" android:onClick="AR"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+            app:layout_constraintTop_toBottomOf="@+id/imageView" android:visibility="invisible"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

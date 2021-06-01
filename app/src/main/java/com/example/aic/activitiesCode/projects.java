@@ -25,4 +25,8 @@ public class projects extends AppCompatActivity {
         startActivity(in);
 
     }
+
+    public void view3d(View view) {
+
+    }
 }

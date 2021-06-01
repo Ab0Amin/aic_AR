@@ -15,8 +15,8 @@
         android:layout_height="match_parent" />
     <ImageView
             android:layout_width="48dp"
-            android:layout_height="42dp" app:srcCompat="@drawable/index" android:id="@+id/imageView2"
-            tools:srcCompat="@drawable/index"
+            android:layout_height="42dp" app:srcCompat="@android:drawable/btn_dialog" android:id="@+id/imageView2"
+            tools:srcCompat="@android:drawable/btn_dialog"
             android:onClick="back"/>
 
 </FrameLayout>

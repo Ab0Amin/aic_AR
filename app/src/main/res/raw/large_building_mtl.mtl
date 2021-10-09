@@ -1,0 +1,3782 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 11.09.2021 21:24:17
+
+newmtl wire_193136141
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.53 0.55
+	Kd 0.76 0.53 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_214144246
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.84 0.56 0.96
+	Kd 0.84 0.56 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_229176219
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.69 0.86
+	Kd 0.90 0.69 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_239183131
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.94 0.72 0.51
+	Kd 0.94 0.72 0.51
+	Ks 0.35 0.35 0.35
+
+newmtl wire_155207204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.81 0.80
+	Kd 0.61 0.81 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_128190189
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.50 0.75 0.74
+	Kd 0.50 0.75 0.74
+	Ks 0.35 0.35 0.35
+
+newmtl wire_236210176
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.82 0.69
+	Kd 0.93 0.82 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_220133164
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.86 0.52 0.64
+	Kd 0.86 0.52 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_208171247
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.67 0.97
+	Kd 0.82 0.67 0.97
+	Ks 0.35 0.35 0.35
+
+newmtl wire_193138219
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.54 0.86
+	Kd 0.76 0.54 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_146195179
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.57 0.76 0.70
+	Kd 0.57 0.76 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_199240158
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.94 0.62
+	Kd 0.78 0.94 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183193150
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.76 0.59
+	Kd 0.72 0.76 0.59
+	Ks 0.35 0.35 0.35
+
+newmtl wire_221249246
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.98 0.96
+	Kd 0.87 0.98 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_251209224
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.82 0.88
+	Kd 0.98 0.82 0.88
+	Ks 0.35 0.35 0.35
+
+newmtl wire_160244132
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.96 0.52
+	Kd 0.63 0.96 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_250248248
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.97 0.97
+	Kd 0.98 0.97 0.97
+	Ks 0.35 0.35 0.35
+
+newmtl wire_245240226
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.94 0.89
+	Kd 0.96 0.94 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_210133175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.52 0.69
+	Kd 0.82 0.52 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_231184186
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.72 0.73
+	Kd 0.91 0.72 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_134143250
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.56 0.98
+	Kd 0.53 0.56 0.98
+	Ks 0.35 0.35 0.35
+
+newmtl wire_160223234
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.87 0.92
+	Kd 0.63 0.87 0.92
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183238160
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.93 0.63
+	Kd 0.72 0.93 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_151161247
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.63 0.97
+	Kd 0.59 0.63 0.97
+	Ks 0.35 0.35 0.35
+
+newmtl wire_224249206
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.88 0.98 0.81
+	Kd 0.88 0.98 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_128181152
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.50 0.71 0.60
+	Kd 0.50 0.71 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183167172
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.65 0.67
+	Kd 0.72 0.65 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_178237143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.93 0.56
+	Kd 0.70 0.93 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147241185
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.95 0.73
+	Kd 0.58 0.95 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_232245163
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.96 0.64
+	Kd 0.91 0.96 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_140135143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.53 0.56
+	Kd 0.55 0.53 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_181218200
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.85 0.78
+	Kd 0.71 0.85 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_198212244
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.83 0.96
+	Kd 0.78 0.83 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_142250219
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.98 0.86
+	Kd 0.56 0.98 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_217203200
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.80 0.78
+	Kd 0.85 0.80 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_249231180
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.91 0.71
+	Kd 0.98 0.91 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_158161154
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.63 0.60
+	Kd 0.62 0.63 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_228174173
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.68 0.68
+	Kd 0.89 0.68 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_218179204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.70 0.80
+	Kd 0.85 0.70 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254189207
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.74 0.81
+	Kd 1.00 0.74 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_152199161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.78 0.63
+	Kd 0.60 0.78 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_245133220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.52 0.86
+	Kd 0.96 0.52 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_168154192
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.66 0.60 0.75
+	Kd 0.66 0.60 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_209212137
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.83 0.54
+	Kd 0.82 0.83 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_218209229
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.82 0.90
+	Kd 0.85 0.82 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_182218171
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.85 0.67
+	Kd 0.71 0.85 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_170133202
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.52 0.79
+	Kd 0.67 0.52 0.79
+	Ks 0.35 0.35 0.35
+
+newmtl wire_226244178
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.96 0.70
+	Kd 0.89 0.96 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_215153205
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.84 0.60 0.80
+	Kd 0.84 0.60 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_161240190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.94 0.75
+	Kd 0.63 0.94 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201136238
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.53 0.93
+	Kd 0.79 0.53 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_128191253
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.50 0.75 0.99
+	Kd 0.50 0.75 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147178216
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.70 0.85
+	Kd 0.58 0.70 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_237250242
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.98 0.95
+	Kd 0.93 0.98 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172210235
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.82 0.92
+	Kd 0.67 0.82 0.92
+	Ks 0.35 0.35 0.35
+
+newmtl wire_224210173
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.88 0.82 0.68
+	Kd 0.88 0.82 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147193156
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.76 0.61
+	Kd 0.58 0.76 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_135206214
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.81 0.84
+	Kd 0.53 0.81 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_203130220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.51 0.86
+	Kd 0.80 0.51 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_130177176
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.69 0.69
+	Kd 0.51 0.69 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_131180181
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.71 0.71
+	Kd 0.51 0.71 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_253166196
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.65 0.77
+	Kd 0.99 0.65 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_200231190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.91 0.75
+	Kd 0.78 0.91 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_149236179
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.93 0.70
+	Kd 0.58 0.93 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_186146148
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.57 0.58
+	Kd 0.73 0.57 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_182192135
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.75 0.53
+	Kd 0.71 0.75 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_162186216
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.73 0.85
+	Kd 0.64 0.73 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_143185174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.73 0.68
+	Kd 0.56 0.73 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_212157199
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.83 0.62 0.78
+	Kd 0.83 0.62 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_217186156
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.73 0.61
+	Kd 0.85 0.73 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_131218203
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.85 0.80
+	Kd 0.51 0.85 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_252193133
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.76 0.52
+	Kd 0.99 0.76 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201218149
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.85 0.58
+	Kd 0.79 0.85 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_130135224
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.53 0.88
+	Kd 0.51 0.53 0.88
+	Ks 0.35 0.35 0.35
+
+newmtl wire_182163183
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.64 0.72
+	Kd 0.71 0.64 0.72
+	Ks 0.35 0.35 0.35
+
+newmtl wire_185221170
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.87 0.67
+	Kd 0.73 0.87 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_174194141
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.68 0.76 0.55
+	Kd 0.68 0.76 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_154217170
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.85 0.67
+	Kd 0.60 0.85 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_157209187
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.82 0.73
+	Kd 0.62 0.82 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_163249249
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.98 0.98
+	Kd 0.64 0.98 0.98
+	Ks 0.35 0.35 0.35
+
+newmtl wire_135181233
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.71 0.91
+	Kd 0.53 0.71 0.91
+	Ks 0.35 0.35 0.35
+
+newmtl wire_243216167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.85 0.65
+	Kd 0.95 0.85 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_160164199
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.64 0.78
+	Kd 0.63 0.64 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_232228169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.89 0.66
+	Kd 0.91 0.89 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_224245209
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.88 0.96 0.82
+	Kd 0.88 0.96 0.82
+	Ks 0.35 0.35 0.35
+
+newmtl wire_255138132
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.54 0.52
+	Kd 1.00 0.54 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_243157132
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.62 0.52
+	Kd 0.95 0.62 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254183139
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.72 0.55
+	Kd 1.00 0.72 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_141169239
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.66 0.94
+	Kd 0.55 0.66 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_197191169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.77 0.75 0.66
+	Kd 0.77 0.75 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_180154195
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.60 0.76
+	Kd 0.71 0.60 0.76
+	Ks 0.35 0.35 0.35
+
+newmtl wire_247170252
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.97 0.67 0.99
+	Kd 0.97 0.67 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_205208221
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.82 0.87
+	Kd 0.80 0.82 0.87
+	Ks 0.35 0.35 0.35
+
+newmtl wire_236229161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.90 0.63
+	Kd 0.93 0.90 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_178162180
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.64 0.71
+	Kd 0.70 0.64 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_187244186
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.96 0.73
+	Kd 0.73 0.96 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_162144211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.56 0.83
+	Kd 0.64 0.56 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_246149228
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.58 0.89
+	Kd 0.96 0.58 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_227167229
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.65 0.90
+	Kd 0.89 0.65 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_207140134
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.81 0.55 0.53
+	Kd 0.81 0.55 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_176200183
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.78 0.72
+	Kd 0.69 0.78 0.72
+	Ks 0.35 0.35 0.35
+
+newmtl wire_138202169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.79 0.66
+	Kd 0.54 0.79 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_225146190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.88 0.57 0.75
+	Kd 0.88 0.57 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_182243191
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.95 0.75
+	Kd 0.71 0.95 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_226218211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.85 0.83
+	Kd 0.89 0.85 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_233254248
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 1.00 0.97
+	Kd 0.91 1.00 0.97
+	Ks 0.35 0.35 0.35
+
+newmtl wire_231215252
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.84 0.99
+	Kd 0.91 0.84 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_160218221
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.85 0.87
+	Kd 0.63 0.85 0.87
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172146243
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.57 0.95
+	Kd 0.67 0.57 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_233177145
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.69 0.57
+	Kd 0.91 0.69 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_179245227
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.96 0.89
+	Kd 0.70 0.96 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_235191138
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.75 0.54
+	Kd 0.92 0.75 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183153153
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.60 0.60
+	Kd 0.72 0.60 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_145132241
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.57 0.52 0.95
+	Kd 0.57 0.52 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_191142159
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.56 0.62
+	Kd 0.75 0.56 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_161228170
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.89 0.67
+	Kd 0.63 0.89 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_175220146
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.86 0.57
+	Kd 0.69 0.86 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183131135
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.51 0.53
+	Kd 0.72 0.51 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_176132161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.52 0.63
+	Kd 0.69 0.52 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_136184151
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.72 0.59
+	Kd 0.53 0.72 0.59
+	Ks 0.35 0.35 0.35
+
+newmtl wire_165221160
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.87 0.63
+	Kd 0.65 0.87 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_178180218
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.71 0.85
+	Kd 0.70 0.71 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254203222
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.80 0.87
+	Kd 1.00 0.80 0.87
+	Ks 0.35 0.35 0.35
+
+newmtl wire_231140235
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.55 0.92
+	Kd 0.91 0.55 0.92
+	Ks 0.35 0.35 0.35
+
+newmtl wire_162205242
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.80 0.95
+	Kd 0.64 0.80 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_139136180
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.53 0.71
+	Kd 0.55 0.53 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_166210185
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.82 0.73
+	Kd 0.65 0.82 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_137182143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.71 0.56
+	Kd 0.54 0.71 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_227228175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.89 0.69
+	Kd 0.89 0.89 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_181212161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.83 0.63
+	Kd 0.71 0.83 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_233187151
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.73 0.59
+	Kd 0.91 0.73 0.59
+	Ks 0.35 0.35 0.35
+
+newmtl wire_195244247
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.96 0.97
+	Kd 0.76 0.96 0.97
+	Ks 0.35 0.35 0.35
+
+newmtl wire_234222201
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.87 0.79
+	Kd 0.92 0.87 0.79
+	Ks 0.35 0.35 0.35
+
+newmtl wire_189222196
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.87 0.77
+	Kd 0.74 0.87 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_243197197
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.77 0.77
+	Kd 0.95 0.77 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_222184183
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.72 0.72
+	Kd 0.87 0.72 0.72
+	Ks 0.35 0.35 0.35
+
+newmtl wire_196148220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.77 0.58 0.86
+	Kd 0.77 0.58 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_255168211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.66 0.83
+	Kd 1.00 0.66 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_228152204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.60 0.80
+	Kd 0.89 0.60 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_190174218
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.68 0.85
+	Kd 0.75 0.68 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_189129189
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.51 0.74
+	Kd 0.74 0.51 0.74
+	Ks 0.35 0.35 0.35
+
+newmtl wire_198138201
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.54 0.79
+	Kd 0.78 0.54 0.79
+	Ks 0.35 0.35 0.35
+
+newmtl wire_151224211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.88 0.83
+	Kd 0.59 0.88 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172160178
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.63 0.70
+	Kd 0.67 0.63 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_237205167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.80 0.65
+	Kd 0.93 0.80 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_232195151
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.76 0.59
+	Kd 0.91 0.76 0.59
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172220147
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.86 0.58
+	Kd 0.67 0.86 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147139253
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.55 0.99
+	Kd 0.58 0.55 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_191147252
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.58 0.99
+	Kd 0.75 0.58 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_195142226
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.56 0.89
+	Kd 0.76 0.56 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_156219163
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.86 0.64
+	Kd 0.61 0.86 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_148137151
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.54 0.59
+	Kd 0.58 0.54 0.59
+	Ks 0.35 0.35 0.35
+
+newmtl wire_230131160
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.51 0.63
+	Kd 0.90 0.51 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183234143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.92 0.56
+	Kd 0.72 0.92 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_237193139
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.76 0.55
+	Kd 0.93 0.76 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201236161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.93 0.63
+	Kd 0.79 0.93 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_245162237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.64 0.93
+	Kd 0.96 0.64 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_242154192
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.60 0.75
+	Kd 0.95 0.60 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_202144226
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.56 0.89
+	Kd 0.79 0.56 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_148158203
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.62 0.80
+	Kd 0.58 0.62 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_238174161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.68 0.63
+	Kd 0.93 0.68 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_178141245
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.55 0.96
+	Kd 0.70 0.55 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_149150237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.59 0.93
+	Kd 0.58 0.59 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_213174168
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.84 0.68 0.66
+	Kd 0.84 0.68 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_139133243
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.52 0.95
+	Kd 0.55 0.52 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_208194237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.76 0.93
+	Kd 0.82 0.76 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_173178131
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.68 0.70 0.51
+	Kd 0.68 0.70 0.51
+	Ks 0.35 0.35 0.35
+
+newmtl wire_235147187
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.58 0.73
+	Kd 0.92 0.58 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_164132145
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.52 0.57
+	Kd 0.64 0.52 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_189195146
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.76 0.57
+	Kd 0.74 0.76 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_138219167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.86 0.65
+	Kd 0.54 0.86 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_204159174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.62 0.68
+	Kd 0.80 0.62 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_221191185
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.75 0.73
+	Kd 0.87 0.75 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_190207239
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.81 0.94
+	Kd 0.75 0.81 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_234213161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.84 0.63
+	Kd 0.92 0.84 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_158156213
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.61 0.84
+	Kd 0.62 0.61 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_133139190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.55 0.75
+	Kd 0.52 0.55 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_140226138
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.89 0.54
+	Kd 0.55 0.89 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_164184133
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.72 0.52
+	Kd 0.64 0.72 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_167136243
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.53 0.95
+	Kd 0.65 0.53 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_223183147
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.72 0.58
+	Kd 0.87 0.72 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183151174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.59 0.68
+	Kd 0.72 0.59 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_230202240
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.79 0.94
+	Kd 0.90 0.79 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_249129225
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.51 0.88
+	Kd 0.98 0.51 0.88
+	Ks 0.35 0.35 0.35
+
+newmtl wire_177243197
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.95 0.77
+	Kd 0.69 0.95 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_222163231
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.64 0.91
+	Kd 0.87 0.64 0.91
+	Ks 0.35 0.35 0.35
+
+newmtl wire_248188237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.97 0.74 0.93
+	Kd 0.97 0.74 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_154193148
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.76 0.58
+	Kd 0.60 0.76 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_205186237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.73 0.93
+	Kd 0.80 0.73 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_157231188
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.91 0.74
+	Kd 0.62 0.91 0.74
+	Ks 0.35 0.35 0.35
+
+newmtl wire_185202196
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.79 0.77
+	Kd 0.73 0.79 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_179190156
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.75 0.61
+	Kd 0.70 0.75 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_135197137
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.77 0.54
+	Kd 0.53 0.77 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_210209135
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.82 0.53
+	Kd 0.82 0.82 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_252236173
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.93 0.68
+	Kd 0.99 0.93 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_241219148
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.86 0.58
+	Kd 0.95 0.86 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172212202
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.83 0.79
+	Kd 0.67 0.83 0.79
+	Ks 0.35 0.35 0.35
+
+newmtl wire_138132216
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.52 0.85
+	Kd 0.54 0.52 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_247235162
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.97 0.92 0.64
+	Kd 0.97 0.92 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_150176174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.69 0.68
+	Kd 0.59 0.69 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_141223187
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.87 0.73
+	Kd 0.55 0.87 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_193146206
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.57 0.81
+	Kd 0.76 0.57 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_237169211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.66 0.83
+	Kd 0.93 0.66 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_136215186
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.84 0.73
+	Kd 0.53 0.84 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_155242214
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.95 0.84
+	Kd 0.61 0.95 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_188177211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.69 0.83
+	Kd 0.74 0.69 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_193236230
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.93 0.90
+	Kd 0.76 0.93 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_186213235
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.84 0.92
+	Kd 0.73 0.84 0.92
+	Ks 0.35 0.35 0.35
+
+newmtl wire_173197239
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.68 0.77 0.94
+	Kd 0.68 0.77 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_177184171
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.72 0.67
+	Kd 0.69 0.72 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147225155
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.88 0.61
+	Kd 0.58 0.88 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_207239177
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.81 0.94 0.69
+	Kd 0.81 0.94 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_246220129
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.86 0.51
+	Kd 0.96 0.86 0.51
+	Ks 0.35 0.35 0.35
+
+newmtl wire_137207186
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.81 0.73
+	Kd 0.54 0.81 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_175207244
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.81 0.96
+	Kd 0.69 0.81 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_210157226
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.62 0.89
+	Kd 0.82 0.62 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_184187199
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.73 0.78
+	Kd 0.72 0.73 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_214162240
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.84 0.64 0.94
+	Kd 0.84 0.64 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_204141236
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.55 0.93
+	Kd 0.80 0.55 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_218232141
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.91 0.55
+	Kd 0.85 0.91 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_196246180
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.77 0.96 0.71
+	Kd 0.77 0.96 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_235131211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.51 0.83
+	Kd 0.92 0.51 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_129194251
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.76 0.98
+	Kd 0.51 0.76 0.98
+	Ks 0.35 0.35 0.35
+
+newmtl wire_133202193
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.79 0.76
+	Kd 0.52 0.79 0.76
+	Ks 0.35 0.35 0.35
+
+newmtl wire_198178169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.70 0.66
+	Kd 0.78 0.70 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_156182245
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.71 0.96
+	Kd 0.61 0.71 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_229132220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.52 0.86
+	Kd 0.90 0.52 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_136129140
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.51 0.55
+	Kd 0.53 0.51 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254216138
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.85 0.54
+	Kd 1.00 0.85 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_146247237
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.57 0.97 0.93
+	Kd 0.57 0.97 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_171215206
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.84 0.81
+	Kd 0.67 0.84 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_221220133
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.86 0.52
+	Kd 0.87 0.86 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_220139133
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.86 0.55 0.52
+	Kd 0.86 0.55 0.52
+	Ks 0.35 0.35 0.35
+
+newmtl wire_202221142
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.87 0.56
+	Kd 0.79 0.87 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_209160215
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.63 0.84
+	Kd 0.82 0.63 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_181230177
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.90 0.69
+	Kd 0.71 0.90 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_157179168
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.70 0.66
+	Kd 0.62 0.70 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_146164252
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.57 0.64 0.99
+	Kd 0.57 0.64 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_163145192
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.57 0.75
+	Kd 0.64 0.57 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_193146253
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.57 0.99
+	Kd 0.76 0.57 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_231158175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.62 0.69
+	Kd 0.91 0.62 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_179155211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.61 0.83
+	Kd 0.70 0.61 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_159169191
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.66 0.75
+	Kd 0.62 0.66 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_252183179
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.72 0.70
+	Kd 0.99 0.72 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_251135147
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.53 0.58
+	Kd 0.98 0.53 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147170134
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.67 0.53
+	Kd 0.58 0.67 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_139185155
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.73 0.61
+	Kd 0.55 0.73 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_255254154
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 1.00 0.60
+	Kd 1.00 1.00 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_131154197
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.60 0.77
+	Kd 0.51 0.60 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_242179176
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.70 0.69
+	Kd 0.95 0.70 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_199157177
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.62 0.69
+	Kd 0.78 0.62 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_142162173
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.64 0.68
+	Kd 0.56 0.64 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_135168167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.53 0.66 0.65
+	Kd 0.53 0.66 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_159194227
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.76 0.89
+	Kd 0.62 0.76 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_165140167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.55 0.65
+	Kd 0.65 0.55 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_233156144
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.91 0.61 0.56
+	Kd 0.91 0.61 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_152180167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.71 0.65
+	Kd 0.60 0.71 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_188215209
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.84 0.82
+	Kd 0.74 0.84 0.82
+	Ks 0.35 0.35 0.35
+
+newmtl wire_207188200
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.81 0.74 0.78
+	Kd 0.81 0.74 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_145138178
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.57 0.54 0.70
+	Kd 0.57 0.54 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_195145146
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.57 0.57
+	Kd 0.76 0.57 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_246178199
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.70 0.78
+	Kd 0.96 0.70 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_154177182
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.69 0.71
+	Kd 0.60 0.69 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_129137203
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.54 0.80
+	Kd 0.51 0.54 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_194163254
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.64 1.00
+	Kd 0.76 0.64 1.00
+	Ks 0.35 0.35 0.35
+
+newmtl wire_190238211
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.93 0.83
+	Kd 0.75 0.93 0.83
+	Ks 0.35 0.35 0.35
+
+newmtl wire_177239129
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.94 0.51
+	Kd 0.69 0.94 0.51
+	Ks 0.35 0.35 0.35
+
+newmtl wire_153189158
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.74 0.62
+	Kd 0.60 0.74 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_154144231
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.56 0.91
+	Kd 0.60 0.56 0.91
+	Ks 0.35 0.35 0.35
+
+newmtl wire_246222161
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.87 0.63
+	Kd 0.96 0.87 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_141131206
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.55 0.51 0.81
+	Kd 0.55 0.51 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_180191172
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.75 0.67
+	Kd 0.71 0.75 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_138237214
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.93 0.84
+	Kd 0.54 0.93 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_142233204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.91 0.80
+	Kd 0.56 0.91 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_156245159
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.96 0.62
+	Kd 0.61 0.96 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_167188196
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.74 0.77
+	Kd 0.65 0.74 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_253179185
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.70 0.73
+	Kd 0.99 0.70 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_147227202
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.89 0.79
+	Kd 0.58 0.89 0.79
+	Ks 0.35 0.35 0.35
+
+newmtl wire_132174217
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.68 0.85
+	Kd 0.52 0.68 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_164229157
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.90 0.62
+	Kd 0.64 0.90 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_238134191
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.53 0.75
+	Kd 0.93 0.53 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_169161159
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.66 0.63 0.62
+	Kd 0.66 0.63 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_255229171
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.90 0.67
+	Kd 1.00 0.90 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_189148230
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.58 0.90
+	Kd 0.74 0.58 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_217151209
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.59 0.82
+	Kd 0.85 0.59 0.82
+	Ks 0.35 0.35 0.35
+
+newmtl wire_225190128
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.88 0.75 0.50
+	Kd 0.88 0.75 0.50
+	Ks 0.35 0.35 0.35
+
+newmtl wire_154147234
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.58 0.92
+	Kd 0.60 0.58 0.92
+	Ks 0.35 0.35 0.35
+
+newmtl wire_133175243
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.69 0.95
+	Kd 0.52 0.69 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_191188142
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.74 0.56
+	Kd 0.75 0.74 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_131209160
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.82 0.63
+	Kd 0.51 0.82 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_235131255
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.92 0.51 1.00
+	Kd 0.92 0.51 1.00
+	Ks 0.35 0.35 0.35
+
+newmtl wire_132195255
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.76 1.00
+	Kd 0.52 0.76 1.00
+	Ks 0.35 0.35 0.35
+
+newmtl wire_210244229
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.96 0.90
+	Kd 0.82 0.96 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_164143182
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.56 0.71
+	Kd 0.64 0.56 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_133134143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.53 0.56
+	Kd 0.52 0.53 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_137205158
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.80 0.62
+	Kd 0.54 0.80 0.62
+	Ks 0.35 0.35 0.35
+
+newmtl wire_198245155
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.78 0.96 0.61
+	Kd 0.78 0.96 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_167149143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.58 0.56
+	Kd 0.65 0.58 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_187221225
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.87 0.88
+	Kd 0.73 0.87 0.88
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254179220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.70 0.86
+	Kd 1.00 0.70 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_222137239
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.54 0.94
+	Kd 0.87 0.54 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_129220175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.51 0.86 0.69
+	Kd 0.51 0.86 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_240214184
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.94 0.84 0.72
+	Kd 0.94 0.84 0.72
+	Ks 0.35 0.35 0.35
+
+newmtl wire_218234170
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.85 0.92 0.67
+	Kd 0.85 0.92 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_192191160
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.75 0.63
+	Kd 0.75 0.75 0.63
+	Ks 0.35 0.35 0.35
+
+newmtl wire_229128215
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.50 0.84
+	Kd 0.90 0.50 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_150192171
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.75 0.67
+	Kd 0.59 0.75 0.67
+	Ks 0.35 0.35 0.35
+
+newmtl wire_202189135
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.74 0.53
+	Kd 0.79 0.74 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_157207138
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.62 0.81 0.54
+	Kd 0.62 0.81 0.54
+	Ks 0.35 0.35 0.35
+
+newmtl wire_173244238
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.68 0.96 0.93
+	Kd 0.68 0.96 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_152165164
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.65 0.64
+	Kd 0.60 0.65 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_168189148
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.66 0.74 0.58
+	Kd 0.66 0.74 0.58
+	Ks 0.35 0.35 0.35
+
+newmtl wire_168167156
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.66 0.65 0.61
+	Kd 0.66 0.65 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_150190168
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.75 0.66
+	Kd 0.59 0.75 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_187247142
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.73 0.97 0.56
+	Kd 0.73 0.97 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_244197253
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.77 0.99
+	Kd 0.96 0.77 0.99
+	Ks 0.35 0.35 0.35
+
+newmtl wire_143255223
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 1.00 0.87
+	Kd 0.56 1.00 0.87
+	Ks 0.35 0.35 0.35
+
+newmtl wire_188213240
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.84 0.94
+	Kd 0.74 0.84 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_203148236
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.58 0.93
+	Kd 0.80 0.58 0.93
+	Ks 0.35 0.35 0.35
+
+newmtl wire_192166230
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.65 0.90
+	Kd 0.75 0.65 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_205240204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.94 0.80
+	Kd 0.80 0.94 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_228199219
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.78 0.86
+	Kd 0.89 0.78 0.86
+	Ks 0.35 0.35 0.35
+
+newmtl wire_156221214
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.87 0.84
+	Kd 0.61 0.87 0.84
+	Ks 0.35 0.35 0.35
+
+newmtl wire_223221189
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.87 0.74
+	Kd 0.87 0.87 0.74
+	Ks 0.35 0.35 0.35
+
+newmtl wire_151232169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.91 0.66
+	Kd 0.59 0.91 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_243173190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.95 0.68 0.75
+	Kd 0.95 0.68 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_166187146
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.73 0.57
+	Kd 0.65 0.73 0.57
+	Ks 0.35 0.35 0.35
+
+newmtl wire_189227175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.74 0.89 0.69
+	Kd 0.74 0.89 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_192133178
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.52 0.70
+	Kd 0.75 0.52 0.70
+	Ks 0.35 0.35 0.35
+
+newmtl wire_176166167
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.65 0.65
+	Kd 0.69 0.65 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_207194204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.81 0.76 0.80
+	Kd 0.81 0.76 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_179130156
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.51 0.61
+	Kd 0.70 0.51 0.61
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201148192
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.58 0.75
+	Kd 0.79 0.58 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_176221200
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.87 0.78
+	Kd 0.69 0.87 0.78
+	Ks 0.35 0.35 0.35
+
+newmtl wire_175241165
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.95 0.65
+	Kd 0.69 0.95 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_190198190
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.75 0.78 0.75
+	Kd 0.75 0.78 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_137211175
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.83 0.69
+	Kd 0.54 0.83 0.69
+	Ks 0.35 0.35 0.35
+
+newmtl wire_254199166
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.00 0.78 0.65
+	Kd 1.00 0.78 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_204151154
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.80 0.59 0.60
+	Kd 0.80 0.59 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_228222241
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.89 0.87 0.95
+	Kd 0.89 0.87 0.95
+	Ks 0.35 0.35 0.35
+
+newmtl wire_142188188
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.74 0.74
+	Kd 0.56 0.74 0.74
+	Ks 0.35 0.35 0.35
+
+newmtl wire_230159144
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.62 0.56
+	Kd 0.90 0.62 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_184236245
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.93 0.96
+	Kd 0.72 0.93 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_184144185
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.56 0.73
+	Kd 0.72 0.56 0.73
+	Ks 0.35 0.35 0.35
+
+newmtl wire_181220165
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.71 0.86 0.65
+	Kd 0.71 0.86 0.65
+	Ks 0.35 0.35 0.35
+
+newmtl wire_248224173
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.97 0.88 0.68
+	Kd 0.97 0.88 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_246243207
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.96 0.95 0.81
+	Kd 0.96 0.95 0.81
+	Ks 0.35 0.35 0.35
+
+newmtl wire_195162143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.64 0.56
+	Kd 0.76 0.64 0.56
+	Ks 0.35 0.35 0.35
+
+newmtl wire_148144163
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.58 0.56 0.64
+	Kd 0.58 0.56 0.64
+	Ks 0.35 0.35 0.35
+
+newmtl wire_160170174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.63 0.67 0.68
+	Kd 0.63 0.67 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_150161216
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.59 0.63 0.85
+	Kd 0.59 0.63 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201198251
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.78 0.98
+	Kd 0.79 0.78 0.98
+	Ks 0.35 0.35 0.35
+
+newmtl wire_173169180
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.68 0.66 0.71
+	Kd 0.68 0.66 0.71
+	Ks 0.35 0.35 0.35
+
+newmtl wire_247224240
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.97 0.88 0.94
+	Kd 0.97 0.88 0.94
+	Ks 0.35 0.35 0.35
+
+newmtl wire_252227228
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.99 0.89 0.89
+	Kd 0.99 0.89 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_162238141
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.93 0.55
+	Kd 0.64 0.93 0.55
+	Ks 0.35 0.35 0.35
+
+newmtl wire_144203169
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.56 0.80 0.66
+	Kd 0.56 0.80 0.66
+	Ks 0.35 0.35 0.35
+
+newmtl wire_153238152
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.60 0.93 0.60
+	Kd 0.60 0.93 0.60
+	Ks 0.35 0.35 0.35
+
+newmtl wire_166132250
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.65 0.52 0.98
+	Kd 0.65 0.52 0.98
+	Ks 0.35 0.35 0.35
+
+newmtl wire_172167197
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.65 0.77
+	Kd 0.67 0.65 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_222138128
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.87 0.54 0.50
+	Kd 0.87 0.54 0.50
+	Ks 0.35 0.35 0.35
+
+newmtl wire_171247246
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.97 0.96
+	Kd 0.67 0.97 0.96
+	Ks 0.35 0.35 0.35
+
+newmtl wire_133140218
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.52 0.55 0.85
+	Kd 0.52 0.55 0.85
+	Ks 0.35 0.35 0.35
+
+newmtl wire_137201226
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.54 0.79 0.89
+	Kd 0.54 0.79 0.89
+	Ks 0.35 0.35 0.35
+
+newmtl wire_208155254
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.82 0.61 1.00
+	Kd 0.82 0.61 1.00
+	Ks 0.35 0.35 0.35
+
+newmtl wire_230229191
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.90 0.90 0.75
+	Kd 0.90 0.90 0.75
+	Ks 0.35 0.35 0.35
+
+newmtl wire_163145195
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.64 0.57 0.76
+	Kd 0.64 0.57 0.76
+	Ks 0.35 0.35 0.35
+
+newmtl wire_175171196
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.67 0.77
+	Kd 0.69 0.67 0.77
+	Ks 0.35 0.35 0.35
+
+newmtl wire_183158134
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.72 0.62 0.53
+	Kd 0.72 0.62 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_195164225
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.64 0.88
+	Kd 0.76 0.64 0.88
+	Ks 0.35 0.35 0.35
+
+newmtl wire_177158230
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.69 0.62 0.90
+	Kd 0.69 0.62 0.90
+	Ks 0.35 0.35 0.35
+
+newmtl wire_249166204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.98 0.65 0.80
+	Kd 0.98 0.65 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_156209174
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.61 0.82 0.68
+	Kd 0.61 0.82 0.68
+	Ks 0.35 0.35 0.35
+
+newmtl wire_170233131
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.67 0.91 0.51
+	Kd 0.67 0.91 0.51
+	Ks 0.35 0.35 0.35
+
+newmtl wire_201163204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.79 0.64 0.80
+	Kd 0.79 0.64 0.80
+	Ks 0.35 0.35 0.35
+
+newmtl wire_194142223
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.76 0.56 0.87
+	Kd 0.76 0.56 0.87
+	Ks 0.35 0.35 0.35
+
+newmtl wire_237179134
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.93 0.70 0.53
+	Kd 0.93 0.70 0.53
+	Ks 0.35 0.35 0.35
+
+newmtl wire_178223130
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.70 0.87 0.51
+	Kd 0.70 0.87 0.51
+	Ks 0.35 0.35 0.35

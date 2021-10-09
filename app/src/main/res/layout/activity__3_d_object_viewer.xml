@@ -23,6 +23,20 @@
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="@+id/glview"
             android:onClick="ARshow" app:cornerRadius="30dp" android:backgroundTint="#00E4D8D8"
             app:icon="@drawable/aricon" app:iconSize="25dp" android:textAllCaps="false"/>
+    <ImageView
+            android:layout_width="71dp"
+            android:layout_height="74dp" app:srcCompat="@android:drawable/btn_plus"
+            android:id="@+id/imageView3"
+            android:onClick="zoomIn"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp" android:layout_marginStart="15dp"/>
+    <ImageView
+            android:layout_width="73dp"
+            android:layout_height="78dp" app:srcCompat="@android:drawable/btn_minus"
+            android:id="@+id/imageView4"
+            android:onClick="zoomOut"
+            app:layout_constraintTop_toTopOf="@+id/glview" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="15dp" android:layout_marginTop="15dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

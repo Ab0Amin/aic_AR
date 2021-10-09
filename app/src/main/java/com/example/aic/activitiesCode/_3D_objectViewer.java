@@ -61,7 +61,8 @@ public class _3D_objectViewer extends AppCompatActivity {
 
             }
         });
-                renderer = new MyRenderer();
+
+        renderer = new MyRenderer();
         mGLView.setRenderer(renderer);
         GLSurfaceView v = findViewById(R.id.glview);
 
@@ -92,7 +93,7 @@ public class _3D_objectViewer extends AppCompatActivity {
             Logger.log("Copying data from master Activity!");
             Field[] fs = src.getClass().getDeclaredFields();
             for (Field f : fs) {
-                        f.setAccessible(true);
+                f.setAccessible(true);
                 f.set(this, f.get(src));
             }
         } catch (Exception e) {
@@ -113,6 +114,8 @@ public class _3D_objectViewer extends AppCompatActivity {
             touchTurnUp = 0;
             return true;
         }
+
+
         if (me.getAction() == MotionEvent.ACTION_MOVE) {
             float xd = me.getX() - xpos;
             float yd = me.getY() - ypos;
@@ -125,6 +128,8 @@ public class _3D_objectViewer extends AppCompatActivity {
             return true;
         }
 
+
+
         try {
             Thread.sleep(15);
         } catch (Exception e) {
@@ -135,6 +140,15 @@ public class _3D_objectViewer extends AppCompatActivity {
     public void ARshow(View view) {
         Intent in = new Intent(this, came2.class);
         startActivity(in);
+    }
+
+    public void zoomOut(View view) {
+        cube.setScale(cube.getScale()/1.2f);
+    }
+
+    public void zoomIn(View view) {
+        cube.setScale(cube.getScale()*1.2f);
+
     }
 
     class MyRenderer implements GLSurfaceView.Renderer {
@@ -149,12 +163,12 @@ public class _3D_objectViewer extends AppCompatActivity {
             if (fb != null) {
                 fb.dispose();
             }
-                    fb = new FrameBuffer(gl, w, h);
+            fb = new FrameBuffer(gl, w, h);
             Logger.log(master + "");
             if (master == null) {
                 world = new World();
                 world.setAmbientLight(20, 20, 20);
-                        sun = new Light(world);
+                sun = new Light(world);
                 sun.setIntensity(250, 250, 250);
                 Texture texture = new Texture(BitmapHelper.rescale(
                         BitmapHelper.convert(getResources().getDrawable(
@@ -163,10 +177,12 @@ public class _3D_objectViewer extends AppCompatActivity {
                                 R.drawable.ic_launcher_background)), 64, 64));
                 TextureManager.getInstance().addTexture("texture", texture);
 
-                InputStream streamobj = getResources().openRawResource(R.raw.uderobj3);
-                InputStream streamMTL = getResources().openRawResource(R.raw.uderobj);
+                InputStream streamobj = getResources().openRawResource(R.raw.large_building_obj);
+                InputStream streamMTL = getResources().openRawResource(R.raw.large_building_mtl);
+//                InputStream stream3ds = getResources().openRawResource(R.raw.vcc3);
 
-                Object3D[] object3DS = Loader.loadOBJ(streamobj,streamMTL, 0.5f);
+//                Object3D[] object3DS = Loader.load3DS(stream3ds,.05f);
+                Object3D[] object3DS = Loader.loadOBJ(streamobj,streamMTL, 0.1f);
                 cube = Object3D.mergeAll(object3DS);
 
                 cube.calcTextureWrapSpherical();
@@ -178,7 +194,7 @@ public class _3D_objectViewer extends AppCompatActivity {
                 world.addObject(cube);
 
                 Camera cam = world.getCamera();
-                cam.moveCamera(Camera.CAMERA_MOVEOUT, 50);
+                cam.moveCamera(Camera.CAMERA_MOVEOUT, 10);
                 cam.lookAt(cube.getTransformedCenter());
                 SimpleVector sv = new SimpleVector();
                 sv.set(cube.getTransformedCenter());
@@ -201,12 +217,23 @@ public class _3D_objectViewer extends AppCompatActivity {
                 if (!stop) {
                     if (touchTurn != 0) {
                         cube.rotateY(touchTurn);
+//                        cube.setScale(cube.getScale() + .05f);
                         touchTurn = 0;
                     }
                     if (touchTurnUp != 0) {
+//                        cube.setScale(cube.getScale() - .05f);
+//
                         cube.rotateX(touchTurnUp);
                         touchTurnUp = 0;
                     }
+//                    if (touchTurnUp != 0) {
+//                       cube.scale(cube.getScale()+.01f);
+//                        touchTurnUp = 0;
+//                    }
+//                    if (touch != 0) {
+//                        cube.scale(cube.getScale()+.01f);
+//                        touchTurnUp = 0;
+//                    }
                     fb.clear(back);
                     world.renderScene(fb);
                     world.draw(fb);

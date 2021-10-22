@@ -41,7 +41,7 @@ dependencies {
 //    implementation 'com.google.ar.sceneform:assets:1.6.0'
 
     compile files('libs/jpct_ae.jar')
-
+//
 }
 apply plugin: 'com.google.ar.sceneform.plugin'
 
@@ -50,3 +50,44 @@ sceneform.asset('sampledata/uderobj.obj',
         'default',
         'sampledata/uderobj.sfa',
         'src/main/res/raw/uderobj5')
+
+
+
+
+
+
+
+
+sceneform.asset('sampledata/tryg.obj',
+        'default',
+        'sampledata/tryg.sfa',
+        'src/main/res/raw/tryg')
+
+
+
+
+sceneform.asset('sampledata/tryg3.obj',
+        'default',
+        'sampledata/tryg3.sfa',
+        'src/main/assets/tryg3')
+
+
+sceneform.asset('sampledata/tryg4.obj',
+        'default',
+        'sampledata/tryg4.sfa',
+        'src/main/res/raw/tryg4')
+
+sceneform.asset('sampledata/tryg5.obj',
+        'default',
+        'sampledata/tryg5.sfa',
+        'src/main/res/raw/tryg5')
+
+
+
+
+
+
+sceneform.asset('sampledata/bolt1.obj',
+        'default',
+        'sampledata/bolt1.sfa',
+        'src/main/assets/bolt1')

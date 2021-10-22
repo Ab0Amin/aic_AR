@@ -21,15 +21,20 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Aic"
             android:usesCleartextTraffic="true"
+
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activitiesCode.projects">
+
+        <activity android:name=".activitiesCode.projects" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activitiesCode._3D_objectViewer">
+        <activity android:name=".activitiesCode._3D_objectViewer"
+       >
+
+
         </activity>
         <!--
          Indicates that this app requires Google Play Services for AR ("AR Required") and causes
@@ -39,8 +44,10 @@
         <meta-data
                 android:name="com.google.ar.core"
                 android:value="required"/>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
 
         <activity android:name=".activitiesCode.came2">
+
         </activity>
         <activity android:name=".activitiesCode.MycamActivity"/>
     </application>

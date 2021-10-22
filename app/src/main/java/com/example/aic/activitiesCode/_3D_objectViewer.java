@@ -11,6 +11,7 @@ import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import androidx.activity.OnBackPressedDispatcherOwner;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.aic.R;
 import com.threed.jpct.*;
@@ -33,11 +34,25 @@ public class _3D_objectViewer extends AppCompatActivity {
     private Object3D cube = null;
     private int fps = 0;
     private Light sun = null;
-
+    InputStream streamobj;
+    InputStream streamMTL ;
+   static projects PR_code ;
+   String code ;
+float scale =0;
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        code = PR_code.code.getText().toString();
+        if (code.equals("E205") ) {
+            streamobj = getResources().openRawResource(R.raw.large_building_obj);
+            streamMTL = getResources().openRawResource(R.raw.large_building_mtl);
+scale = 4f;
+        }
+        else  if (code.equals("E206") ) {
+            streamobj = getResources().openRawResource(R.raw.uderobj3);
+            streamMTL = getResources().openRawResource(R.raw.uderobj);
+            scale = .5f;
 
-
+        }
 
         Logger.log("onCreate");
         if (master != null) {
@@ -159,7 +174,10 @@ public class _3D_objectViewer extends AppCompatActivity {
             stop = true;
         }
 
-        public void onSurfaceChanged(GL10 gl, int w, int h) {
+
+        @Override
+        public void onSurfaceChanged(GL10 gl, int w, int h)
+        {
             if (fb != null) {
                 fb.dispose();
             }
@@ -175,23 +193,32 @@ public class _3D_objectViewer extends AppCompatActivity {
 
 
                                 R.drawable.ic_launcher_background)), 64, 64));
-                TextureManager.getInstance().addTexture("texture", texture);
+//                TextureManager.getInstance().addTexture("texture", texture);
 
-                InputStream streamobj = getResources().openRawResource(R.raw.large_building_obj);
-                InputStream streamMTL = getResources().openRawResource(R.raw.large_building_mtl);
-//                InputStream stream3ds = getResources().openRawResource(R.raw.vcc3);
 
-//                Object3D[] object3DS = Loader.load3DS(stream3ds,.05f);
-                Object3D[] object3DS = Loader.loadOBJ(streamobj,streamMTL, 0.1f);
+                Object3D[] object3DS = Loader.loadOBJ(streamobj,streamMTL, .1f);
                 cube = Object3D.mergeAll(object3DS);
 
                 cube.calcTextureWrapSpherical();
-                cube.setTexture("texture");
+//                cube.setTexture("texture");
                 cube.strip();
-                cube.rotateZ(10);
+                if (code.equals("E205") ) {
+                    cube.rotateZ(12.2f);
+                    cube.rotateY(12.5f);
+                    cube.rotateX(10.9f);
+                }
+                else  if (code.equals("E206") ) {
+                    cube.rotateZ(10f);
+//                    cube.rotateY(12.5f);
+//                    cube.rotateX(10.9f);
+
+                }
+
+                cube.setScale((cube.getScale()*scale));
                 cube.build();
                 Mesh mesh = cube.getMesh();
                 world.addObject(cube);
+
 
                 Camera cam = world.getCamera();
                 cam.moveCamera(Camera.CAMERA_MOVEOUT, 10);
@@ -253,5 +280,33 @@ public class _3D_objectViewer extends AppCompatActivity {
                 Logger.log(e, Logger.MESSAGE);
             }
         }
+
+
+
+
+    }
+
+
+
+
+    @Override
+    public void onBackPressed() {
+//        super.onBackPressed();
+          master = null;
+
+          renderer = null;
+         FrameBuffer fb = null;
+          world = null;
+          back = new RGBColor(50, 50, 100);
+          touchTurn = 0;
+          touchTurnUp = 0;
+        xpos = -1;
+        ypos = -1;
+
+      cube = null;
+      fps = 0;
+       sun = null;
+
+    finish();
     }
 }

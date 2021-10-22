@@ -8,21 +8,68 @@
         tools:context=".activitiesCode.projects">
 
     <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" tools:srcCompat="@drawable/buliding"
-            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/imageProjects"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" android:layout_marginStart="16dp" android:layout_marginTop="14dp"
-            app:srcCompat="@drawable/buliding" android:scaleType="fitStart"
-            android:onClick="_3d" app:layout_constraintVertical_chainStyle="packed"
-    />
+            android:layout_marginEnd="16dp" android:layout_marginStart="16dp"
+            android:scaleType="fitStart"
+            android:onClick="_3d"
+            app:layout_constraintTop_toBottomOf="@+id/tx_code"
+            android:layout_marginTop="50dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="200dp"/>
     <ProgressBar
             style="?android:attr/progressBarStyle"
             android:layout_width="116dp"
             android:layout_height="105dp"
             android:id="@+id/progressBar1"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="100dp" android:visibility="invisible"/>
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="@+id/imageProjects" android:layout_marginTop="50dp"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tx_code"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="20dp"
+            android:hint="Enter Project Code ex(E200)" android:layout_marginEnd="100dp"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="@android:string/search_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp" android:fontFamily="@font/aladin" android:textSize="30sp"
+            android:textColor="@color/design_default_color_primary"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_search_category_default"
+            android:id="@+id/imageView6"
+            app:layout_constraintEnd_toStartOf="@+id/textView" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"/>
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/go"
+            android:id="@+id/Searchbt"
+            app:layout_constraintStart_toEndOf="@+id/tx_code" app:layout_constraintBottom_toBottomOf="@+id/tx_code"
+            app:layout_constraintTop_toTopOf="@+id/tx_code" android:onClick="searchResult" android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent" android:scaleX=".15" android:scaleY=".15"
+            android:layout_marginEnd="10dp" android:layout_marginTop="20dp" android:layout_marginStart="10dp"/>
+
+    <Button
+            android:text="View in 3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_3D" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="_3d" app:cornerRadius="30dp" android:backgroundTint="@color/design_default_color_secondary"
+            app:icon="@drawable/aricon" app:iconSize="25dp" android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@+id/imageProjects" android:visibility="invisible"
+            android:layout_marginTop="-20dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
